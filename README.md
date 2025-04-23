@@ -135,13 +135,11 @@ Analyzes contract creation transactions and their distribution per block.
 
 ![Contracts](Contracts.png)
 
-![Smart Contracts](Smart-Contracts.png)
 
 ---
 
 ### 5. Top Active Addresses
 These charts display the top 10 sender and receiver addresses by transaction count.
 
-![Top Senders](Top-Senders.png)
 
 ![All Senders](All-Senders.png)
