@@ -143,6 +143,11 @@ Analyzes contract creation transactions and their distribution per block.
 
 ### 5. Top Active Addresses
 These charts display the top 10 sender and receiver addresses by transaction count.
+![image](https://github.com/user-attachments/assets/10c4d963-b120-48ac-8246-9a771f93310c)
 
 
 ![All Senders](All-Senders.png)
+
+## 6. Top Transaction crawled:
+![image](https://github.com/user-attachments/assets/d5fc9a70-5204-4b53-8792-19802cf8c3f7)
+
