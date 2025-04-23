@@ -107,7 +107,10 @@ This bar chart aggregates transaction counts by hour of the day.
 ---
 
 ## PLots and Metrics:
-## 📊 Blockchain Crawler Visualizations
+## Summary:
+![image](https://github.com/user-attachments/assets/0470f0eb-8aa2-47b3-b003-2517a6d6002b)
+
+## Blockchain Crawler Visualizations
 
 ### 1. Overall Data Summary
 This image includes block counts, transaction volume, and gas utilization over the crawl range.
