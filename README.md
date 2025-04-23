@@ -1,6 +1,41 @@
-Here’s a **README** section that explains what your blockchain crawler does, how it works, and includes a breakdown of your dashboard’s visualizations and key findings from the charts:
+## Project Overview and Requirements
 
----
+This project monitors Ethereum blockchain data by connecting to a public RPC endpoint using the Web3 library. It retrieves block and transaction data from a single Ethereum node (via Infura), stores it in a local database, and visualizes network activity through an interactive dashboard. It does not perform full peer-to-peer crawling; instead, it passively logs chain data through remote procedure calls (RPC).
+
+### Dependencies
+
+To run this project, install the following Python packages:
+
+- `web3` – [Web3.py Documentation](https://web3py.readthedocs.io/)
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `ipywidgets`
+- `sqlite3` – Standard with Python
+- Jupyter Notebook or JupyterLab (recommended for interactive use)
+
+Install with:
+
+```bash
+pip install web3 pandas matplotlib seaborn ipywidgets
+```
+
+### External Requirement: Infura API Key
+
+This project connects to the Ethereum network through Infura, which provides scalable blockchain infrastructure. You will need to register for a free account and create a project to obtain your API key.
+
+- Sign up at: [https://infura.io/register](https://infura.io/register)
+- After logging in, create a new Ethereum project
+- Copy the Project ID (API key) and paste it into the code where specified
+
+For reference: [Infura Ethereum Docs](https://docs.infura.io/infura/networks/ethereum)
+
+### Limitations
+
+The project uses a lightweight SQLite database to store blockchain data. While suitable for quick access and limited use cases, it is not optimized for high-volume or long-running monitoring. Storing a large number of blocks or leaving the listener running for extended periods may cause memory issues or crashes.
+
+For production-grade data collection or analysis at scale, it is recommended to switch to a more robust backend such as PostgreSQL, and implement data batching, pruning, or archiving strategies.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Blockchain Crawler & Dashboard
 
