@@ -107,3 +107,41 @@ This bar chart aggregates transaction counts by hour of the day.
 ---
 
 ## PLots and Metrics:
+## 📊 Blockchain Crawler Visualizations
+
+### 1. Overall Data Summary
+This image includes block counts, transaction volume, and gas utilization over the crawl range.
+
+![Overall Data](Overall-Data.png)
+
+---
+
+### 2. Block-Level Data
+Shows gas usage trends and transaction count across different blocks.
+
+![Block Data](Block-Data.png)
+
+---
+
+### 3. Transaction Value & Gas Price Distribution
+Visualizes transaction values on a log scale and their corresponding gas prices over time.
+
+![Ether Transfer](Eather%20Transfer.png)
+
+---
+
+### 4. Smart Contract Activity
+Analyzes contract creation transactions and their distribution per block.
+
+![Contracts](Contracts.png)
+
+![Smart Contracts](Smart-Contracts.png)
+
+---
+
+### 5. Top Active Addresses
+These charts display the top 10 sender and receiver addresses by transaction count.
+
+![Top Senders](Top-Senders.png)
+
+![All Senders](All-Senders.png)
