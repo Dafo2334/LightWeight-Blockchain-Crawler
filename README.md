@@ -34,7 +34,6 @@ For reference: [Infura Ethereum Docs](https://docs.infura.io/infura/networks/eth
 
 The project uses a lightweight SQLite database to store blockchain data. While suitable for quick access and limited use cases, it is not optimized for high-volume or long-running monitoring. Storing a large number of blocks or leaving the listener running for extended periods may cause memory issues or crashes.
 
-For production-grade data collection or analysis at scale, it is recommended to switch to a more robust backend such as PostgreSQL, and implement data batching, pruning, or archiving strategies.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Blockchain Crawler & Dashboard
