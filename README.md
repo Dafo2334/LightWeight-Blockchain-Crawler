@@ -140,7 +140,6 @@ This bar chart aggregates transaction counts by hour of the day.
 
 ---
 
-## PLots and Metrics:
 ## Summary:
 ![image](https://github.com/user-attachments/assets/0470f0eb-8aa2-47b3-b003-2517a6d6002b)
 
