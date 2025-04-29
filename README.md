@@ -141,6 +141,8 @@ This bar chart aggregates transaction counts by hour of the day.
 ---
 
 ## Summary:
+An overview of the scope of the project.
+
 ![image](https://github.com/user-attachments/assets/0470f0eb-8aa2-47b3-b003-2517a6d6002b)
 
 ## Blockchain Crawler Visualizations
@@ -182,5 +184,7 @@ These charts display the top 10 sender and receiver addresses by transaction cou
 ![All Senders](All-Senders.png)
 
 ## 6. Top Transaction crawled:
+This is the biggest transaction while running.
+
 ![image](https://github.com/user-attachments/assets/d5fc9a70-5204-4b53-8792-19802cf8c3f7)
 
